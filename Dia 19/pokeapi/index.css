@@ -1,0 +1,122 @@
+*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+}
+.padre{
+        height: 100vh;
+        border: 1px solid black;
+        background-color:  rgb(247, 247, 247);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+}
+#barra{
+        width:100%;
+        height: 3%;
+        margin-top: 12%;        
+        background-color: rgb(14, 14, 14);
+        position: absolute;
+
+}
+#barra2{
+        width: 100%;
+        height: 0.8%;
+        margin-top: 14.3%;
+        background-color: rgb(226, 0, 0);
+        position: absolute;
+}
+#barra3{
+        width: 100%;
+        height: 0.8%;
+        margin-top: 10.7%;
+        background-color: rgb(225, 0, 0);
+        position: absolute;
+}
+.contenedor{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+        gap: 2em;
+        z-index: 1;
+}
+#bola{
+
+        margin-top: 20%;
+        height: 18em;
+        animation:spin 0.3s linear 5;
+        }
+        @-moz-keyframes spin { 
+        100% { -moz-transform: rotate(360deg); } 
+        }
+        @-webkit-keyframes spin { 
+        100% { -webkit-transform: rotate(360deg); } 
+        }
+        @keyframes spin { 
+        100% { 
+                -webkit-transform: rotate(360deg); 
+                transform:rotate(360deg); 
+        } 
+}
+.input{
+        border-color: transparent;
+        border-radius: 28px;
+        height: 2.5em;
+        width: 30em;
+        background-color: rgb(192, 192, 192);
+        font-size: large;
+        text-indent: 5%
+}
+.input:focus{
+        outline: none;
+        background-color: rgb(175, 175, 175);
+}
+.form{
+
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+        gap: 1em;
+}
+.boton{
+        height: 2em;
+        width: 5em;
+        border-radius: 20px;
+        border-color: transparent;
+        font-size: large;
+        color: white;
+        background-color: rgb(39, 39, 39);
+}
+.descripcion{
+
+        margin-top: 6em;
+        font-family: Helvetica, sans-serif;
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+}
+#foto{
+        margin-top: 30%;
+        border-radius: 50%;
+        height: 120px;
+        width: 140px;
+        background-color: rgb(165, 165, 165);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+}
+.pokemon{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+}
+#fotito{
+        margin-left: -50px;
+        border: 1px solid black;
+        height: 15em;
+        width: 15em;       
+}

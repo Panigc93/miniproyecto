@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src = "index.js"></script>
+        <title>Document</title>
+</head>
+<body>
+        <section class ="padre">
+                <article id = "barra"></article>
+                <article id = "barra2"></article>
+                <article id = "barra3"></article>
+                <article class = "contenedor">
+                        <div class = "imagen">
+                                <img src="bola.png" alt="bola" id="bola">
+                        </div>
+                        <div class = "form" >
+                                <input type="text" class = "input" id='form' placeholder="Indroduce el nombre del pokemon">
+                                <button type="button" class="boton" onclick = 'getPokemon()'>Buscar</button>
+                        </div>
+                </article>
+                <article class = "pokemon">
+                        <div class="descripcion" id="descripcion"></div>
+                        <div id="foto"></div>
+                </article>
+        </section>
+</body>
+</html>
